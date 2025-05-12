@@ -3,11 +3,11 @@
 ## 📌 **Project Overview**  
 The goal of this project is to **reproduce semantic segmentation** on satellite images from the **DynamicEarthNet** dataset. Our approach includes:  
 
-✅ **Building and exploring** the multi-spectral dataset.  
-✅ **Applying advanced preprocessing** techniques.  
-✅ **Designing a U-Net model** from scratch.  
-✅ **Using a pre-trained U-Net model** for segmentation.  
-✅ **Applying Data Augmentation** techniques to enhance training.  
+- **Building and exploring** the multi-spectral dataset.  
+- **Applying advanced preprocessing** techniques.  
+- **Designing a U-Net model** from scratch.  
+- **Using a pre-trained U-Net model** for segmentation.  
+- **Applying Data Augmentation** techniques to enhance training.  
 
 ⚠️ **Due to storage and computational constraints, we used only a small portion of the available data.**  
 
@@ -44,3 +44,5 @@ The dataset includes **75 Areas of Interest (AOI)** across **six continents**. E
 
 ### 📊 **Labeled vs. Unlabeled Data**  
 The dataset contains **54,750 satellite images**, of which **1,800 are labeled** with segmentation masks.  
+
+A project by Ines Lalou and Lily Daganaud

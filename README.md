@@ -1,6 +1,6 @@
 # 🌍 **Satellite Image Segmentation with DynamicEarthNet**  
 
-## 📌 **Project Overview**  
+## **Project Overview**  
 The goal of this project is to **reproduce semantic segmentation** on satellite images from the **DynamicEarthNet** dataset. Our approach includes:  
 
 - **Building and exploring** the multi-spectral dataset.  
@@ -9,13 +9,13 @@ The goal of this project is to **reproduce semantic segmentation** on satellite 
 - **Using a pre-trained U-Net model** for segmentation.  
 - **Applying Data Augmentation** techniques to enhance training.  
 
-⚠️ **Due to storage and computational constraints, we used only a small portion of the available data.**  
+Due to storage and computational constraints, we used only a small portion of the available data.
 
 ---
 
-## 📂 **Dataset Overview**  
+## **Dataset Overview**  
 
-### 🔍 **DynamicEarthNet: A Multi-Spectral Satellite Dataset**  
+### **DynamicEarthNet: A Multi-Spectral Satellite Dataset**  
 **DynamicEarthNet** is a collection of satellite images covering a **two-year period (January 2018 – December 2019)**. It provides:  
 
 ✔ **Daily coverage** of observed areas.  
@@ -30,13 +30,13 @@ The dataset includes **75 Areas of Interest (AOI)** across **six continents**. E
 
 | **Class**                 | **Percentage** |
 |---------------------------|--------------|
-| 🏙️ **Impervious surfaces** | 7.1%        |
-| 🌾 **Agriculture**         | 10.3%       |
-| 🌲 **Forest / Vegetation** | 44.9%       |
-| 🏞️ **Wetlands**           | 0.7%        |
-| 🏜️ **Bare soil**          | 28.0%       |
-| 💧 **Water**              | 8.0%        |
-| ❄️ **Snow and ice**       | 1.0%        |
+| **Impervious surfaces** | 7.1%        |
+| **Agriculture**         | 10.3%       |
+| **Forest / Vegetation** | 44.9%       |
+| **Wetlands**           | 0.7%        |
+| **Bare soil**          | 28.0%       |
+| **Water**              | 8.0%        |
+| **Snow and ice**       | 1.0%        |
 
 📌 **The first annotated image** for each region serves as a **reference**, with annotations updated **monthly** based on detected changes.  
 
@@ -45,4 +45,4 @@ The dataset includes **75 Areas of Interest (AOI)** across **six continents**. E
 ### 📊 **Labeled vs. Unlabeled Data**  
 The dataset contains **54,750 satellite images**, of which **1,800 are labeled** with segmentation masks.  
 
-A project by Ines Lalou and Lily Daganaud
+A project by Lily Daganaud and Ines Lalou
